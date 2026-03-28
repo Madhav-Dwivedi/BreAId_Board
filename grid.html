@@ -1,0 +1,198 @@
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+h3 { font-size: 16px; font-weight: 500; color: var(--color-text-primary); margin-bottom: 12px; }
+.label { font-size: 13px; color: var(--color-text-secondary); margin-bottom: 6px; }
+.channel-row { display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 20px; align-items: flex-start; }
+.channel { display: flex; flex-direction: column; gap: 6px; }
+.ch-title { font-size: 13px; font-weight: 500; }
+.grid { display: grid; grid-template-columns: repeat(8, 30px); gap: 2px; }
+
+/* Added clearer outlines for the input cells */
+.cell {
+  width: 30px; height: 30px; border-radius: 3px;
+  background: var(--color-background-secondary);
+  border: 1px solid rgba(128, 128, 128, 0.3); /* Visible outline */
+  cursor: pointer;
+}
+.cell.on { border-color: rgba(0, 0, 0, 0.2); }
+
+.preview-section { display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap; margin-bottom: 16px; }
+.preview-grid { display: grid; grid-template-columns: repeat(8, 15px); gap: 2px; }
+
+/* Added outlines for the preview cells */
+.pcell { 
+  width: 15px; height: 15px; 
+  border-radius: 2px; 
+  background: #1a1a1a; /* Dark background for the 'off' state */
+  border: 1px solid rgba(128, 128, 128, 0.2); 
+}
+
+.output {
+  background: var(--color-background-secondary);
+  border: 0.5px solid var(--color-border-tertiary);
+  border-radius: var(--border-radius-md);
+  padding: 10px 14px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--color-text-primary);
+  white-space: pre;
+  overflow-x: auto;
+}
+button {
+  font-size: 12px; padding: 5px 10px;
+  border: 0.5px solid var(--color-border-secondary);
+  border-radius: var(--border-radius-md);
+  background: transparent; color: var(--color-text-primary);
+  cursor: pointer;
+}
+button:hover { background: var(--color-background-secondary); }
+.btn-row { display: flex; gap: 5px; flex-wrap: wrap; margin-top: 5px; }
+</style>
+
+<div style="padding: 1rem 0;">
+  <h3>Buffer designer</h3>
+  <p class="label" style="margin-bottom:14px;">Draw each color channel independently, then copy the combined output.</p>
+
+  <div class="channel-row" id="grids"></div>
+
+  <div class="preview-section">
+    <div>
+      <p class="label">Combined RGB preview</p>
+      <div class="preview-grid" id="preview"></div>
+    </div>
+  </div>
+
+  <p class="label">Output — paste into sketch</p>
+  <div class="output" id="output"></div>
+</div>
+
+<script>
+const CHANNELS = [
+  { id: 'r', label: 'Red (fb_r)',   color: '#e24b4a' },
+  { id: 'g', label: 'Green (fb_g)', color: '#639922' },
+  { id: 'b', label: 'Blue (fb_b)',  color: '#378add' },
+];
+
+const buffers = { 
+  r: Array(8).fill(0).map(()=>Array(8).fill(false)), 
+  g: Array(8).fill(0).map(()=>Array(8).fill(false)), 
+  b: Array(8).fill(0).map(()=>Array(8).fill(false)) 
+};
+
+let isDown = false;
+let drawValue = true;
+let drawChannel = null;
+
+function toByte(ch, row) {
+  let b = 0;
+  for (let c = 0; c < 8; c++) if (buffers[ch][row][c]) b |= (1 << (7 - c));
+  return b;
+}
+
+function updateCell(ch, r, c) {
+  const cell = document.querySelector(`.cell[data-ch="${ch}"][data-r="${r}"][data-c="${c}"]`);
+  if (!cell) return;
+  const on = buffers[ch][r][c];
+  const col = CHANNELS.find(x=>x.id===ch);
+  cell.style.background = on ? col.color : '';
+  updatePreview();
+  updateOutput();
+}
+
+// Fixed the preview logic to correctly mix RGB channels
+function updatePreview() {
+  for (let r = 0; r < 8; r++) {
+    for (let c = 0; c < 8; c++) {
+      const pcell = document.querySelector(`.pcell[data-r="${r}"][data-c="${c}"]`);
+      if (!pcell) continue;
+      
+      const rv = buffers.r[r][c] ? 255 : 0;
+      const gv = buffers.g[r][c] ? 255 : 0;
+      const bv = buffers.b[r][c] ? 255 : 0;
+
+      if (rv === 0 && gv === 0 && bv === 0) {
+        pcell.style.background = '#1a1a1a'; // LED Off color
+      } else {
+        pcell.style.background = `rgb(${rv},${gv},${bv})`;
+      }
+    }
+  }
+}
+
+function updateOutput() {
+  let lines = [];
+  for (const ch of ['r','g','b']) {
+    const varName = `fb_${ch}`;
+    const rows = [];
+    for (let r = 0; r < 8; r++) {
+      const b = toByte(ch, r);
+      rows.push('  0b' + b.toString(2).padStart(8,'0'));
+    }
+    lines.push(`uint8_t ${varName}[8] = {\n${rows.join(',\n')}\n};`);
+  }
+  document.getElementById('output').textContent = lines.join('\n\n');
+}
+
+const gridsDiv = document.getElementById('grids');
+CHANNELS.forEach(ch => {
+  const wrap = document.createElement('div');
+  wrap.className = 'channel';
+
+  const title = document.createElement('div');
+  title.className = 'ch-title';
+  title.style.color = ch.color;
+  title.textContent = ch.label;
+  wrap.appendChild(title);
+
+  const grid = document.createElement('div');
+  grid.className = 'grid';
+  for (let r = 0; r < 8; r++) for (let c = 0; c < 8; c++) {
+    const cell = document.createElement('div');
+    cell.className = 'cell';
+    cell.dataset.ch = ch.id; cell.dataset.r = r; cell.dataset.c = c;
+    cell.addEventListener('mousedown', e => {
+      isDown = true; drawChannel = ch.id;
+      drawValue = !buffers[ch.id][r][c];
+      buffers[ch.id][r][c] = drawValue;
+      updateCell(ch.id, r, c); e.preventDefault();
+    });
+    cell.addEventListener('mouseover', () => {
+      if (isDown && drawChannel === ch.id) {
+        buffers[ch.id][r][c] = drawValue;
+        updateCell(ch.id, r, c);
+      }
+    });
+    grid.appendChild(cell);
+  }
+  wrap.appendChild(grid);
+
+  const btnRow = document.createElement('div');
+  btnRow.className = 'btn-row';
+  ['Clear','Invert','Flip H','Flip V'].forEach(lbl => {
+    const btn = document.createElement('button');
+    btn.textContent = lbl;
+    btn.onclick = () => {
+      const id = ch.id;
+      if (lbl==='Clear') buffers[id] = Array(8).fill(0).map(()=>Array(8).fill(false));
+      if (lbl==='Invert') buffers[id] = buffers[id].map(row=>row.map(v=>!v));
+      if (lbl==='Flip H') buffers[id] = buffers[id].map(row=>[...row].reverse());
+      if (lbl==='Flip V') buffers[id] = [...buffers[id]].reverse();
+      for (let r=0;r<8;r++) for (let c=0;c<8;c++) updateCell(id,r,c);
+    };
+    btnRow.appendChild(btn);
+  });
+  wrap.appendChild(btnRow);
+  gridsDiv.appendChild(wrap);
+});
+
+const preview = document.getElementById('preview');
+for (let r = 0; r < 8; r++) for (let c = 0; c < 8; c++) {
+  const pcell = document.createElement('div');
+  pcell.className = 'pcell'; pcell.dataset.r = r; pcell.dataset.c = c;
+  preview.appendChild(pcell);
+}
+
+document.addEventListener('mouseup', () => { isDown = false; drawChannel = null; });
+updateOutput();
+updatePreview();
+</script>
