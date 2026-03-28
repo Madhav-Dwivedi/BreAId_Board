@@ -1,0 +1,1091 @@
+<?xml version="1.0" ?>
+<NodeList date="2026-03-28 14:44:16">
+  <Node id="001">
+    <Connection part="Breadboard1" pin="pin27F"/>
+    <Connection part="Breadboard1" pin="pin27G"/>
+    <Connection part="Breadboard1" pin="pin27H"/>
+    <Connection part="Breadboard1" pin="pin27I"/>
+    <Connection part="Breadboard1" pin="pin27J"/>
+    <Connection part="U2" pin="A3"/>
+  </Node>
+  <Node id="002">
+    <Connection part="Breadboard1" pin="pin14A"/>
+    <Connection part="Breadboard1" pin="pin14B"/>
+    <Connection part="Breadboard1" pin="pin14C"/>
+    <Connection part="Breadboard1" pin="pin14D"/>
+    <Connection part="Breadboard1" pin="pin14E"/>
+    <Connection part="Breadboard1" pin="pin14F"/>
+    <Connection part="Breadboard1" pin="pin14G"/>
+    <Connection part="Breadboard1" pin="pin14H"/>
+    <Connection part="Breadboard1" pin="pin14I"/>
+    <Connection part="Breadboard1" pin="pin14J"/>
+    <Connection part="U1" pin="B2"/>
+    <Connection part="U1" pin="B3"/>
+  </Node>
+  <Node id="003">
+    <Connection part="Breadboard1" pin="pin12F"/>
+    <Connection part="Breadboard1" pin="pin12G"/>
+    <Connection part="Breadboard1" pin="pin12H"/>
+    <Connection part="Breadboard1" pin="pin12I"/>
+    <Connection part="Breadboard1" pin="pin12J"/>
+    <Connection part="Breadboard1" pin="pin13A"/>
+    <Connection part="Breadboard1" pin="pin13B"/>
+    <Connection part="Breadboard1" pin="pin13C"/>
+    <Connection part="Breadboard1" pin="pin13D"/>
+    <Connection part="Breadboard1" pin="pin13E"/>
+    <Connection part="U1" pin="A2"/>
+    <Connection part="U1" pin="Q4"/>
+  </Node>
+  <Node id="004">
+    <Connection part="Breadboard1" pin="pin12A"/>
+    <Connection part="Breadboard1" pin="pin12B"/>
+    <Connection part="Breadboard1" pin="pin12C"/>
+    <Connection part="Breadboard1" pin="pin12D"/>
+    <Connection part="Breadboard1" pin="pin12E"/>
+    <Connection part="Breadboard1" pin="pin22A"/>
+    <Connection part="Breadboard1" pin="pin22B"/>
+    <Connection part="Breadboard1" pin="pin22C"/>
+    <Connection part="Breadboard1" pin="pin22D"/>
+    <Connection part="Breadboard1" pin="pin22E"/>
+    <Connection part="U1" pin="Q2"/>
+    <Connection part="U2" pin="B1"/>
+  </Node>
+  <Node id="005">
+    <Connection part="Breadboard1" pin="pin10X"/>
+    <Connection part="Breadboard1" pin="pin11X"/>
+    <Connection part="Breadboard1" pin="pin12X"/>
+    <Connection part="Breadboard1" pin="pin13X"/>
+    <Connection part="Breadboard1" pin="pin15A"/>
+    <Connection part="Breadboard1" pin="pin15B"/>
+    <Connection part="Breadboard1" pin="pin15C"/>
+    <Connection part="Breadboard1" pin="pin15D"/>
+    <Connection part="Breadboard1" pin="pin15E"/>
+    <Connection part="Breadboard1" pin="pin15X"/>
+    <Connection part="Breadboard1" pin="pin16X"/>
+    <Connection part="Breadboard1" pin="pin17X"/>
+    <Connection part="Breadboard1" pin="pin18X"/>
+    <Connection part="Breadboard1" pin="pin19X"/>
+    <Connection part="Breadboard1" pin="pin21X"/>
+    <Connection part="Breadboard1" pin="pin22X"/>
+    <Connection part="Breadboard1" pin="pin23X"/>
+    <Connection part="Breadboard1" pin="pin24X"/>
+    <Connection part="Breadboard1" pin="pin25X"/>
+    <Connection part="Breadboard1" pin="pin27A"/>
+    <Connection part="Breadboard1" pin="pin27B"/>
+    <Connection part="Breadboard1" pin="pin27C"/>
+    <Connection part="Breadboard1" pin="pin27D"/>
+    <Connection part="Breadboard1" pin="pin27E"/>
+    <Connection part="Breadboard1" pin="pin27X"/>
+    <Connection part="Breadboard1" pin="pin28X"/>
+    <Connection part="Breadboard1" pin="pin29X"/>
+    <Connection part="Breadboard1" pin="pin30X"/>
+    <Connection part="Breadboard1" pin="pin31X"/>
+    <Connection part="Breadboard1" pin="pin33X"/>
+    <Connection part="Breadboard1" pin="pin34X"/>
+    <Connection part="Breadboard1" pin="pin35X"/>
+    <Connection part="Breadboard1" pin="pin36X"/>
+    <Connection part="Breadboard1" pin="pin37X"/>
+    <Connection part="Breadboard1" pin="pin39X"/>
+    <Connection part="Breadboard1" pin="pin3X"/>
+    <Connection part="Breadboard1" pin="pin40X"/>
+    <Connection part="Breadboard1" pin="pin41X"/>
+    <Connection part="Breadboard1" pin="pin42X"/>
+    <Connection part="Breadboard1" pin="pin43X"/>
+    <Connection part="Breadboard1" pin="pin45X"/>
+    <Connection part="Breadboard1" pin="pin46X"/>
+    <Connection part="Breadboard1" pin="pin47X"/>
+    <Connection part="Breadboard1" pin="pin48X"/>
+    <Connection part="Breadboard1" pin="pin49X"/>
+    <Connection part="Breadboard1" pin="pin4X"/>
+    <Connection part="Breadboard1" pin="pin51X"/>
+    <Connection part="Breadboard1" pin="pin52X"/>
+    <Connection part="Breadboard1" pin="pin53X"/>
+    <Connection part="Breadboard1" pin="pin54X"/>
+    <Connection part="Breadboard1" pin="pin55X"/>
+    <Connection part="Breadboard1" pin="pin57X"/>
+    <Connection part="Breadboard1" pin="pin58X"/>
+    <Connection part="Breadboard1" pin="pin59X"/>
+    <Connection part="Breadboard1" pin="pin5X"/>
+    <Connection part="Breadboard1" pin="pin60X"/>
+    <Connection part="Breadboard1" pin="pin61X"/>
+    <Connection part="Breadboard1" pin="pin6X"/>
+    <Connection part="Breadboard1" pin="pin7X"/>
+    <Connection part="Breadboard1" pin="pin9X"/>
+    <Connection part="U1" pin="GND"/>
+    <Connection part="U2" pin="GND"/>
+  </Node>
+  <Node id="006">
+    <Connection part="Breadboard1" pin="pin21A"/>
+    <Connection part="Breadboard1" pin="pin21B"/>
+    <Connection part="Breadboard1" pin="pin21C"/>
+    <Connection part="Breadboard1" pin="pin21D"/>
+    <Connection part="Breadboard1" pin="pin21E"/>
+    <Connection part="Breadboard1" pin="pin9A"/>
+    <Connection part="Breadboard1" pin="pin9B"/>
+    <Connection part="Breadboard1" pin="pin9C"/>
+    <Connection part="Breadboard1" pin="pin9D"/>
+    <Connection part="Breadboard1" pin="pin9E"/>
+    <Connection part="U1" pin="A1"/>
+    <Connection part="U2" pin="A1"/>
+  </Node>
+  <Node id="007">
+    <Connection part="Breadboard1" pin="pin24F"/>
+    <Connection part="Breadboard1" pin="pin24G"/>
+    <Connection part="Breadboard1" pin="pin24H"/>
+    <Connection part="Breadboard1" pin="pin24I"/>
+    <Connection part="Breadboard1" pin="pin24J"/>
+    <Connection part="Breadboard1" pin="pin26F"/>
+    <Connection part="Breadboard1" pin="pin26G"/>
+    <Connection part="Breadboard1" pin="pin26H"/>
+    <Connection part="Breadboard1" pin="pin26I"/>
+    <Connection part="Breadboard1" pin="pin26J"/>
+    <Connection part="U2" pin="B3"/>
+    <Connection part="U2" pin="Q4"/>
+  </Node>
+  <Node id="008">
+    <Connection part="Breadboard1" pin="pin11A"/>
+    <Connection part="Breadboard1" pin="pin11B"/>
+    <Connection part="Breadboard1" pin="pin11C"/>
+    <Connection part="Breadboard1" pin="pin11D"/>
+    <Connection part="Breadboard1" pin="pin11E"/>
+    <Connection part="Breadboard1" pin="pin13F"/>
+    <Connection part="Breadboard1" pin="pin13G"/>
+    <Connection part="Breadboard1" pin="pin13H"/>
+    <Connection part="Breadboard1" pin="pin13I"/>
+    <Connection part="Breadboard1" pin="pin13J"/>
+    <Connection part="U1" pin="Q1"/>
+    <Connection part="U1" pin="Q3"/>
+  </Node>
+  <Node id="009">
+    <Connection part="Breadboard1" pin="pin23A"/>
+    <Connection part="Breadboard1" pin="pin23B"/>
+    <Connection part="Breadboard1" pin="pin23C"/>
+    <Connection part="Breadboard1" pin="pin23D"/>
+    <Connection part="Breadboard1" pin="pin23E"/>
+    <Connection part="Breadboard1" pin="pin25F"/>
+    <Connection part="Breadboard1" pin="pin25G"/>
+    <Connection part="Breadboard1" pin="pin25H"/>
+    <Connection part="Breadboard1" pin="pin25I"/>
+    <Connection part="Breadboard1" pin="pin25J"/>
+    <Connection part="U2" pin="Q1"/>
+    <Connection part="U2" pin="Q3"/>
+  </Node>
+  <Node id="010">
+    <Connection part="Breadboard1" pin="pin15F"/>
+    <Connection part="Breadboard1" pin="pin15G"/>
+    <Connection part="Breadboard1" pin="pin15H"/>
+    <Connection part="Breadboard1" pin="pin15I"/>
+    <Connection part="Breadboard1" pin="pin15J"/>
+    <Connection part="Breadboard1" pin="pin22F"/>
+    <Connection part="Breadboard1" pin="pin22G"/>
+    <Connection part="Breadboard1" pin="pin22H"/>
+    <Connection part="Breadboard1" pin="pin22I"/>
+    <Connection part="Breadboard1" pin="pin22J"/>
+    <Connection part="Breadboard1" pin="pin23F"/>
+    <Connection part="Breadboard1" pin="pin23G"/>
+    <Connection part="Breadboard1" pin="pin23H"/>
+    <Connection part="Breadboard1" pin="pin23I"/>
+    <Connection part="Breadboard1" pin="pin23J"/>
+    <Connection part="U1" pin="A3"/>
+    <Connection part="U2" pin="A4"/>
+    <Connection part="U2" pin="B4"/>
+  </Node>
+  <Node id="011">
+    <Connection part="Breadboard1" pin="pin10Y"/>
+    <Connection part="Breadboard1" pin="pin11Y"/>
+    <Connection part="Breadboard1" pin="pin12Y"/>
+    <Connection part="Breadboard1" pin="pin13Y"/>
+    <Connection part="Breadboard1" pin="pin15Y"/>
+    <Connection part="Breadboard1" pin="pin16Y"/>
+    <Connection part="Breadboard1" pin="pin17Y"/>
+    <Connection part="Breadboard1" pin="pin18Y"/>
+    <Connection part="Breadboard1" pin="pin19Y"/>
+    <Connection part="Breadboard1" pin="pin21F"/>
+    <Connection part="Breadboard1" pin="pin21G"/>
+    <Connection part="Breadboard1" pin="pin21H"/>
+    <Connection part="Breadboard1" pin="pin21I"/>
+    <Connection part="Breadboard1" pin="pin21J"/>
+    <Connection part="Breadboard1" pin="pin21Y"/>
+    <Connection part="Breadboard1" pin="pin22Y"/>
+    <Connection part="Breadboard1" pin="pin23Y"/>
+    <Connection part="Breadboard1" pin="pin24Y"/>
+    <Connection part="Breadboard1" pin="pin25Y"/>
+    <Connection part="Breadboard1" pin="pin27Y"/>
+    <Connection part="Breadboard1" pin="pin28Y"/>
+    <Connection part="Breadboard1" pin="pin29Y"/>
+    <Connection part="Breadboard1" pin="pin30Y"/>
+    <Connection part="Breadboard1" pin="pin31Y"/>
+    <Connection part="Breadboard1" pin="pin33Y"/>
+    <Connection part="Breadboard1" pin="pin34Y"/>
+    <Connection part="Breadboard1" pin="pin35Y"/>
+    <Connection part="Breadboard1" pin="pin36Y"/>
+    <Connection part="Breadboard1" pin="pin37Y"/>
+    <Connection part="Breadboard1" pin="pin39Y"/>
+    <Connection part="Breadboard1" pin="pin3Y"/>
+    <Connection part="Breadboard1" pin="pin40Y"/>
+    <Connection part="Breadboard1" pin="pin41Y"/>
+    <Connection part="Breadboard1" pin="pin42Y"/>
+    <Connection part="Breadboard1" pin="pin43Y"/>
+    <Connection part="Breadboard1" pin="pin45Y"/>
+    <Connection part="Breadboard1" pin="pin46Y"/>
+    <Connection part="Breadboard1" pin="pin47Y"/>
+    <Connection part="Breadboard1" pin="pin48Y"/>
+    <Connection part="Breadboard1" pin="pin49Y"/>
+    <Connection part="Breadboard1" pin="pin4Y"/>
+    <Connection part="Breadboard1" pin="pin51Y"/>
+    <Connection part="Breadboard1" pin="pin52Y"/>
+    <Connection part="Breadboard1" pin="pin53Y"/>
+    <Connection part="Breadboard1" pin="pin54Y"/>
+    <Connection part="Breadboard1" pin="pin55Y"/>
+    <Connection part="Breadboard1" pin="pin57Y"/>
+    <Connection part="Breadboard1" pin="pin58Y"/>
+    <Connection part="Breadboard1" pin="pin59Y"/>
+    <Connection part="Breadboard1" pin="pin5Y"/>
+    <Connection part="Breadboard1" pin="pin60Y"/>
+    <Connection part="Breadboard1" pin="pin61Y"/>
+    <Connection part="Breadboard1" pin="pin6Y"/>
+    <Connection part="Breadboard1" pin="pin7Y"/>
+    <Connection part="Breadboard1" pin="pin9F"/>
+    <Connection part="Breadboard1" pin="pin9G"/>
+    <Connection part="Breadboard1" pin="pin9H"/>
+    <Connection part="Breadboard1" pin="pin9I"/>
+    <Connection part="Breadboard1" pin="pin9J"/>
+    <Connection part="Breadboard1" pin="pin9Y"/>
+    <Connection part="U1" pin="VDD"/>
+    <Connection part="U2" pin="VDD"/>
+  </Node>
+  <Node id="012">
+    <Connection part="Breadboard1" pin="pin10A"/>
+    <Connection part="Breadboard1" pin="pin10B"/>
+    <Connection part="Breadboard1" pin="pin10C"/>
+    <Connection part="Breadboard1" pin="pin10D"/>
+    <Connection part="Breadboard1" pin="pin10E"/>
+    <Connection part="Breadboard1" pin="pin10F"/>
+    <Connection part="Breadboard1" pin="pin10G"/>
+    <Connection part="Breadboard1" pin="pin10H"/>
+    <Connection part="Breadboard1" pin="pin10I"/>
+    <Connection part="Breadboard1" pin="pin10J"/>
+    <Connection part="Breadboard1" pin="pin11F"/>
+    <Connection part="Breadboard1" pin="pin11G"/>
+    <Connection part="Breadboard1" pin="pin11H"/>
+    <Connection part="Breadboard1" pin="pin11I"/>
+    <Connection part="Breadboard1" pin="pin11J"/>
+    <Connection part="U1" pin="A4"/>
+    <Connection part="U1" pin="B1"/>
+    <Connection part="U1" pin="B4"/>
+  </Node>
+  <Node id="013">
+    <Connection part="Breadboard1" pin="pin25A"/>
+    <Connection part="Breadboard1" pin="pin25B"/>
+    <Connection part="Breadboard1" pin="pin25C"/>
+    <Connection part="Breadboard1" pin="pin25D"/>
+    <Connection part="Breadboard1" pin="pin25E"/>
+    <Connection part="U2" pin="A2"/>
+  </Node>
+  <Node id="014">
+    <Connection part="Breadboard1" pin="pin26A"/>
+    <Connection part="Breadboard1" pin="pin26B"/>
+    <Connection part="Breadboard1" pin="pin26C"/>
+    <Connection part="Breadboard1" pin="pin26D"/>
+    <Connection part="Breadboard1" pin="pin26E"/>
+    <Connection part="U2" pin="B2"/>
+  </Node>
+  <Node id="015">
+    <Connection part="Breadboard1" pin="pin24A"/>
+    <Connection part="Breadboard1" pin="pin24B"/>
+    <Connection part="Breadboard1" pin="pin24C"/>
+    <Connection part="Breadboard1" pin="pin24D"/>
+    <Connection part="Breadboard1" pin="pin24E"/>
+    <Connection part="U2" pin="Q2"/>
+  </Node>
+  <Node id="016">
+    <Connection part="Breadboard1" pin="pin16A"/>
+    <Connection part="Breadboard1" pin="pin16B"/>
+    <Connection part="Breadboard1" pin="pin16C"/>
+    <Connection part="Breadboard1" pin="pin16D"/>
+    <Connection part="Breadboard1" pin="pin16E"/>
+  </Node>
+  <Node id="017">
+    <Connection part="Breadboard1" pin="pin20A"/>
+    <Connection part="Breadboard1" pin="pin20B"/>
+    <Connection part="Breadboard1" pin="pin20C"/>
+    <Connection part="Breadboard1" pin="pin20D"/>
+    <Connection part="Breadboard1" pin="pin20E"/>
+  </Node>
+  <Node id="018">
+    <Connection part="Breadboard1" pin="pin10Z"/>
+    <Connection part="Breadboard1" pin="pin11Z"/>
+    <Connection part="Breadboard1" pin="pin12Z"/>
+    <Connection part="Breadboard1" pin="pin13Z"/>
+    <Connection part="Breadboard1" pin="pin15Z"/>
+    <Connection part="Breadboard1" pin="pin16Z"/>
+    <Connection part="Breadboard1" pin="pin17Z"/>
+    <Connection part="Breadboard1" pin="pin18Z"/>
+    <Connection part="Breadboard1" pin="pin19Z"/>
+    <Connection part="Breadboard1" pin="pin21Z"/>
+    <Connection part="Breadboard1" pin="pin22Z"/>
+    <Connection part="Breadboard1" pin="pin23Z"/>
+    <Connection part="Breadboard1" pin="pin24Z"/>
+    <Connection part="Breadboard1" pin="pin25Z"/>
+    <Connection part="Breadboard1" pin="pin27Z"/>
+    <Connection part="Breadboard1" pin="pin28Z"/>
+    <Connection part="Breadboard1" pin="pin29Z"/>
+    <Connection part="Breadboard1" pin="pin30Z"/>
+    <Connection part="Breadboard1" pin="pin31Z"/>
+    <Connection part="Breadboard1" pin="pin33Z"/>
+    <Connection part="Breadboard1" pin="pin34Z"/>
+    <Connection part="Breadboard1" pin="pin35Z"/>
+    <Connection part="Breadboard1" pin="pin36Z"/>
+    <Connection part="Breadboard1" pin="pin37Z"/>
+    <Connection part="Breadboard1" pin="pin39Z"/>
+    <Connection part="Breadboard1" pin="pin3Z"/>
+    <Connection part="Breadboard1" pin="pin40Z"/>
+    <Connection part="Breadboard1" pin="pin41Z"/>
+    <Connection part="Breadboard1" pin="pin42Z"/>
+    <Connection part="Breadboard1" pin="pin43Z"/>
+    <Connection part="Breadboard1" pin="pin45Z"/>
+    <Connection part="Breadboard1" pin="pin46Z"/>
+    <Connection part="Breadboard1" pin="pin47Z"/>
+    <Connection part="Breadboard1" pin="pin48Z"/>
+    <Connection part="Breadboard1" pin="pin49Z"/>
+    <Connection part="Breadboard1" pin="pin4Z"/>
+    <Connection part="Breadboard1" pin="pin51Z"/>
+    <Connection part="Breadboard1" pin="pin52Z"/>
+    <Connection part="Breadboard1" pin="pin53Z"/>
+    <Connection part="Breadboard1" pin="pin54Z"/>
+    <Connection part="Breadboard1" pin="pin55Z"/>
+    <Connection part="Breadboard1" pin="pin57Z"/>
+    <Connection part="Breadboard1" pin="pin58Z"/>
+    <Connection part="Breadboard1" pin="pin59Z"/>
+    <Connection part="Breadboard1" pin="pin5Z"/>
+    <Connection part="Breadboard1" pin="pin60Z"/>
+    <Connection part="Breadboard1" pin="pin61Z"/>
+    <Connection part="Breadboard1" pin="pin6Z"/>
+    <Connection part="Breadboard1" pin="pin7Z"/>
+    <Connection part="Breadboard1" pin="pin9Z"/>
+  </Node>
+  <Node id="019">
+    <Connection part="Breadboard1" pin="pin38A"/>
+    <Connection part="Breadboard1" pin="pin38B"/>
+    <Connection part="Breadboard1" pin="pin38C"/>
+    <Connection part="Breadboard1" pin="pin38D"/>
+    <Connection part="Breadboard1" pin="pin38E"/>
+  </Node>
+  <Node id="020">
+    <Connection part="Breadboard1" pin="pin47A"/>
+    <Connection part="Breadboard1" pin="pin47B"/>
+    <Connection part="Breadboard1" pin="pin47C"/>
+    <Connection part="Breadboard1" pin="pin47D"/>
+    <Connection part="Breadboard1" pin="pin47E"/>
+  </Node>
+  <Node id="021">
+    <Connection part="Breadboard1" pin="pin52A"/>
+    <Connection part="Breadboard1" pin="pin52B"/>
+    <Connection part="Breadboard1" pin="pin52C"/>
+    <Connection part="Breadboard1" pin="pin52D"/>
+    <Connection part="Breadboard1" pin="pin52E"/>
+  </Node>
+  <Node id="022">
+    <Connection part="Breadboard1" pin="pin10W"/>
+    <Connection part="Breadboard1" pin="pin11W"/>
+    <Connection part="Breadboard1" pin="pin12W"/>
+    <Connection part="Breadboard1" pin="pin13W"/>
+    <Connection part="Breadboard1" pin="pin15W"/>
+    <Connection part="Breadboard1" pin="pin16W"/>
+    <Connection part="Breadboard1" pin="pin17W"/>
+    <Connection part="Breadboard1" pin="pin18W"/>
+    <Connection part="Breadboard1" pin="pin19W"/>
+    <Connection part="Breadboard1" pin="pin21W"/>
+    <Connection part="Breadboard1" pin="pin22W"/>
+    <Connection part="Breadboard1" pin="pin23W"/>
+    <Connection part="Breadboard1" pin="pin24W"/>
+    <Connection part="Breadboard1" pin="pin25W"/>
+    <Connection part="Breadboard1" pin="pin27W"/>
+    <Connection part="Breadboard1" pin="pin28W"/>
+    <Connection part="Breadboard1" pin="pin29W"/>
+    <Connection part="Breadboard1" pin="pin30W"/>
+    <Connection part="Breadboard1" pin="pin31W"/>
+    <Connection part="Breadboard1" pin="pin33W"/>
+    <Connection part="Breadboard1" pin="pin34W"/>
+    <Connection part="Breadboard1" pin="pin35W"/>
+    <Connection part="Breadboard1" pin="pin36W"/>
+    <Connection part="Breadboard1" pin="pin37W"/>
+    <Connection part="Breadboard1" pin="pin39W"/>
+    <Connection part="Breadboard1" pin="pin3W"/>
+    <Connection part="Breadboard1" pin="pin40W"/>
+    <Connection part="Breadboard1" pin="pin41W"/>
+    <Connection part="Breadboard1" pin="pin42W"/>
+    <Connection part="Breadboard1" pin="pin43W"/>
+    <Connection part="Breadboard1" pin="pin45W"/>
+    <Connection part="Breadboard1" pin="pin46W"/>
+    <Connection part="Breadboard1" pin="pin47W"/>
+    <Connection part="Breadboard1" pin="pin48W"/>
+    <Connection part="Breadboard1" pin="pin49W"/>
+    <Connection part="Breadboard1" pin="pin4W"/>
+    <Connection part="Breadboard1" pin="pin51W"/>
+    <Connection part="Breadboard1" pin="pin52W"/>
+    <Connection part="Breadboard1" pin="pin53W"/>
+    <Connection part="Breadboard1" pin="pin54W"/>
+    <Connection part="Breadboard1" pin="pin55W"/>
+    <Connection part="Breadboard1" pin="pin57W"/>
+    <Connection part="Breadboard1" pin="pin58W"/>
+    <Connection part="Breadboard1" pin="pin59W"/>
+    <Connection part="Breadboard1" pin="pin5W"/>
+    <Connection part="Breadboard1" pin="pin60W"/>
+    <Connection part="Breadboard1" pin="pin61W"/>
+    <Connection part="Breadboard1" pin="pin6W"/>
+    <Connection part="Breadboard1" pin="pin7W"/>
+    <Connection part="Breadboard1" pin="pin9W"/>
+  </Node>
+  <Node id="023">
+    <Connection part="Breadboard1" pin="pin19A"/>
+    <Connection part="Breadboard1" pin="pin19B"/>
+    <Connection part="Breadboard1" pin="pin19C"/>
+    <Connection part="Breadboard1" pin="pin19D"/>
+    <Connection part="Breadboard1" pin="pin19E"/>
+  </Node>
+  <Node id="024">
+    <Connection part="Breadboard1" pin="pin57A"/>
+    <Connection part="Breadboard1" pin="pin57B"/>
+    <Connection part="Breadboard1" pin="pin57C"/>
+    <Connection part="Breadboard1" pin="pin57D"/>
+    <Connection part="Breadboard1" pin="pin57E"/>
+  </Node>
+  <Node id="025">
+    <Connection part="Breadboard1" pin="pin56A"/>
+    <Connection part="Breadboard1" pin="pin56B"/>
+    <Connection part="Breadboard1" pin="pin56C"/>
+    <Connection part="Breadboard1" pin="pin56D"/>
+    <Connection part="Breadboard1" pin="pin56E"/>
+  </Node>
+  <Node id="026">
+    <Connection part="Breadboard1" pin="pin45F"/>
+    <Connection part="Breadboard1" pin="pin45G"/>
+    <Connection part="Breadboard1" pin="pin45H"/>
+    <Connection part="Breadboard1" pin="pin45I"/>
+    <Connection part="Breadboard1" pin="pin45J"/>
+  </Node>
+  <Node id="027">
+    <Connection part="Breadboard1" pin="pin55A"/>
+    <Connection part="Breadboard1" pin="pin55B"/>
+    <Connection part="Breadboard1" pin="pin55C"/>
+    <Connection part="Breadboard1" pin="pin55D"/>
+    <Connection part="Breadboard1" pin="pin55E"/>
+  </Node>
+  <Node id="028">
+    <Connection part="Breadboard1" pin="pin62A"/>
+    <Connection part="Breadboard1" pin="pin62B"/>
+    <Connection part="Breadboard1" pin="pin62C"/>
+    <Connection part="Breadboard1" pin="pin62D"/>
+    <Connection part="Breadboard1" pin="pin62E"/>
+  </Node>
+  <Node id="029">
+    <Connection part="Breadboard1" pin="pin29F"/>
+    <Connection part="Breadboard1" pin="pin29G"/>
+    <Connection part="Breadboard1" pin="pin29H"/>
+    <Connection part="Breadboard1" pin="pin29I"/>
+    <Connection part="Breadboard1" pin="pin29J"/>
+  </Node>
+  <Node id="030">
+    <Connection part="Breadboard1" pin="pin59F"/>
+    <Connection part="Breadboard1" pin="pin59G"/>
+    <Connection part="Breadboard1" pin="pin59H"/>
+    <Connection part="Breadboard1" pin="pin59I"/>
+    <Connection part="Breadboard1" pin="pin59J"/>
+  </Node>
+  <Node id="031">
+    <Connection part="Breadboard1" pin="pin56F"/>
+    <Connection part="Breadboard1" pin="pin56G"/>
+    <Connection part="Breadboard1" pin="pin56H"/>
+    <Connection part="Breadboard1" pin="pin56I"/>
+    <Connection part="Breadboard1" pin="pin56J"/>
+  </Node>
+  <Node id="032">
+    <Connection part="Breadboard1" pin="pin2A"/>
+    <Connection part="Breadboard1" pin="pin2B"/>
+    <Connection part="Breadboard1" pin="pin2C"/>
+    <Connection part="Breadboard1" pin="pin2D"/>
+    <Connection part="Breadboard1" pin="pin2E"/>
+  </Node>
+  <Node id="033">
+    <Connection part="Breadboard1" pin="pin8A"/>
+    <Connection part="Breadboard1" pin="pin8B"/>
+    <Connection part="Breadboard1" pin="pin8C"/>
+    <Connection part="Breadboard1" pin="pin8D"/>
+    <Connection part="Breadboard1" pin="pin8E"/>
+  </Node>
+  <Node id="034">
+    <Connection part="Breadboard1" pin="pin7A"/>
+    <Connection part="Breadboard1" pin="pin7B"/>
+    <Connection part="Breadboard1" pin="pin7C"/>
+    <Connection part="Breadboard1" pin="pin7D"/>
+    <Connection part="Breadboard1" pin="pin7E"/>
+  </Node>
+  <Node id="035">
+    <Connection part="Breadboard1" pin="pin60A"/>
+    <Connection part="Breadboard1" pin="pin60B"/>
+    <Connection part="Breadboard1" pin="pin60C"/>
+    <Connection part="Breadboard1" pin="pin60D"/>
+    <Connection part="Breadboard1" pin="pin60E"/>
+  </Node>
+  <Node id="036">
+    <Connection part="Breadboard1" pin="pin29A"/>
+    <Connection part="Breadboard1" pin="pin29B"/>
+    <Connection part="Breadboard1" pin="pin29C"/>
+    <Connection part="Breadboard1" pin="pin29D"/>
+    <Connection part="Breadboard1" pin="pin29E"/>
+  </Node>
+  <Node id="037">
+    <Connection part="Breadboard1" pin="pin50A"/>
+    <Connection part="Breadboard1" pin="pin50B"/>
+    <Connection part="Breadboard1" pin="pin50C"/>
+    <Connection part="Breadboard1" pin="pin50D"/>
+    <Connection part="Breadboard1" pin="pin50E"/>
+  </Node>
+  <Node id="038">
+    <Connection part="Breadboard1" pin="pin63A"/>
+    <Connection part="Breadboard1" pin="pin63B"/>
+    <Connection part="Breadboard1" pin="pin63C"/>
+    <Connection part="Breadboard1" pin="pin63D"/>
+    <Connection part="Breadboard1" pin="pin63E"/>
+  </Node>
+  <Node id="039">
+    <Connection part="Breadboard1" pin="pin41A"/>
+    <Connection part="Breadboard1" pin="pin41B"/>
+    <Connection part="Breadboard1" pin="pin41C"/>
+    <Connection part="Breadboard1" pin="pin41D"/>
+    <Connection part="Breadboard1" pin="pin41E"/>
+  </Node>
+  <Node id="040">
+    <Connection part="Breadboard1" pin="pin54F"/>
+    <Connection part="Breadboard1" pin="pin54G"/>
+    <Connection part="Breadboard1" pin="pin54H"/>
+    <Connection part="Breadboard1" pin="pin54I"/>
+    <Connection part="Breadboard1" pin="pin54J"/>
+  </Node>
+  <Node id="041">
+    <Connection part="Breadboard1" pin="pin2F"/>
+    <Connection part="Breadboard1" pin="pin2G"/>
+    <Connection part="Breadboard1" pin="pin2H"/>
+    <Connection part="Breadboard1" pin="pin2I"/>
+    <Connection part="Breadboard1" pin="pin2J"/>
+  </Node>
+  <Node id="042">
+    <Connection part="Breadboard1" pin="pin18A"/>
+    <Connection part="Breadboard1" pin="pin18B"/>
+    <Connection part="Breadboard1" pin="pin18C"/>
+    <Connection part="Breadboard1" pin="pin18D"/>
+    <Connection part="Breadboard1" pin="pin18E"/>
+  </Node>
+  <Node id="043">
+    <Connection part="Breadboard1" pin="pin31A"/>
+    <Connection part="Breadboard1" pin="pin31B"/>
+    <Connection part="Breadboard1" pin="pin31C"/>
+    <Connection part="Breadboard1" pin="pin31D"/>
+    <Connection part="Breadboard1" pin="pin31E"/>
+  </Node>
+  <Node id="044">
+    <Connection part="Breadboard1" pin="pin18F"/>
+    <Connection part="Breadboard1" pin="pin18G"/>
+    <Connection part="Breadboard1" pin="pin18H"/>
+    <Connection part="Breadboard1" pin="pin18I"/>
+    <Connection part="Breadboard1" pin="pin18J"/>
+  </Node>
+  <Node id="045">
+    <Connection part="Breadboard1" pin="pin31F"/>
+    <Connection part="Breadboard1" pin="pin31G"/>
+    <Connection part="Breadboard1" pin="pin31H"/>
+    <Connection part="Breadboard1" pin="pin31I"/>
+    <Connection part="Breadboard1" pin="pin31J"/>
+  </Node>
+  <Node id="046">
+    <Connection part="Breadboard1" pin="pin51F"/>
+    <Connection part="Breadboard1" pin="pin51G"/>
+    <Connection part="Breadboard1" pin="pin51H"/>
+    <Connection part="Breadboard1" pin="pin51I"/>
+    <Connection part="Breadboard1" pin="pin51J"/>
+  </Node>
+  <Node id="047">
+    <Connection part="Breadboard1" pin="pin61A"/>
+    <Connection part="Breadboard1" pin="pin61B"/>
+    <Connection part="Breadboard1" pin="pin61C"/>
+    <Connection part="Breadboard1" pin="pin61D"/>
+    <Connection part="Breadboard1" pin="pin61E"/>
+  </Node>
+  <Node id="048">
+    <Connection part="Breadboard1" pin="pin42F"/>
+    <Connection part="Breadboard1" pin="pin42G"/>
+    <Connection part="Breadboard1" pin="pin42H"/>
+    <Connection part="Breadboard1" pin="pin42I"/>
+    <Connection part="Breadboard1" pin="pin42J"/>
+  </Node>
+  <Node id="049">
+    <Connection part="Breadboard1" pin="pin57F"/>
+    <Connection part="Breadboard1" pin="pin57G"/>
+    <Connection part="Breadboard1" pin="pin57H"/>
+    <Connection part="Breadboard1" pin="pin57I"/>
+    <Connection part="Breadboard1" pin="pin57J"/>
+  </Node>
+  <Node id="050">
+    <Connection part="Breadboard1" pin="pin44F"/>
+    <Connection part="Breadboard1" pin="pin44G"/>
+    <Connection part="Breadboard1" pin="pin44H"/>
+    <Connection part="Breadboard1" pin="pin44I"/>
+    <Connection part="Breadboard1" pin="pin44J"/>
+  </Node>
+  <Node id="051">
+    <Connection part="Breadboard1" pin="pin28F"/>
+    <Connection part="Breadboard1" pin="pin28G"/>
+    <Connection part="Breadboard1" pin="pin28H"/>
+    <Connection part="Breadboard1" pin="pin28I"/>
+    <Connection part="Breadboard1" pin="pin28J"/>
+  </Node>
+  <Node id="052">
+    <Connection part="Breadboard1" pin="pin30A"/>
+    <Connection part="Breadboard1" pin="pin30B"/>
+    <Connection part="Breadboard1" pin="pin30C"/>
+    <Connection part="Breadboard1" pin="pin30D"/>
+    <Connection part="Breadboard1" pin="pin30E"/>
+  </Node>
+  <Node id="053">
+    <Connection part="Breadboard1" pin="pin3F"/>
+    <Connection part="Breadboard1" pin="pin3G"/>
+    <Connection part="Breadboard1" pin="pin3H"/>
+    <Connection part="Breadboard1" pin="pin3I"/>
+    <Connection part="Breadboard1" pin="pin3J"/>
+  </Node>
+  <Node id="054">
+    <Connection part="Breadboard1" pin="pin55F"/>
+    <Connection part="Breadboard1" pin="pin55G"/>
+    <Connection part="Breadboard1" pin="pin55H"/>
+    <Connection part="Breadboard1" pin="pin55I"/>
+    <Connection part="Breadboard1" pin="pin55J"/>
+  </Node>
+  <Node id="055">
+    <Connection part="Breadboard1" pin="pin33A"/>
+    <Connection part="Breadboard1" pin="pin33B"/>
+    <Connection part="Breadboard1" pin="pin33C"/>
+    <Connection part="Breadboard1" pin="pin33D"/>
+    <Connection part="Breadboard1" pin="pin33E"/>
+  </Node>
+  <Node id="056">
+    <Connection part="Breadboard1" pin="pin47F"/>
+    <Connection part="Breadboard1" pin="pin47G"/>
+    <Connection part="Breadboard1" pin="pin47H"/>
+    <Connection part="Breadboard1" pin="pin47I"/>
+    <Connection part="Breadboard1" pin="pin47J"/>
+  </Node>
+  <Node id="057">
+    <Connection part="Breadboard1" pin="pin17F"/>
+    <Connection part="Breadboard1" pin="pin17G"/>
+    <Connection part="Breadboard1" pin="pin17H"/>
+    <Connection part="Breadboard1" pin="pin17I"/>
+    <Connection part="Breadboard1" pin="pin17J"/>
+  </Node>
+  <Node id="058">
+    <Connection part="Breadboard1" pin="pin34A"/>
+    <Connection part="Breadboard1" pin="pin34B"/>
+    <Connection part="Breadboard1" pin="pin34C"/>
+    <Connection part="Breadboard1" pin="pin34D"/>
+    <Connection part="Breadboard1" pin="pin34E"/>
+  </Node>
+  <Node id="059">
+    <Connection part="Breadboard1" pin="pin46A"/>
+    <Connection part="Breadboard1" pin="pin46B"/>
+    <Connection part="Breadboard1" pin="pin46C"/>
+    <Connection part="Breadboard1" pin="pin46D"/>
+    <Connection part="Breadboard1" pin="pin46E"/>
+  </Node>
+  <Node id="060">
+    <Connection part="Breadboard1" pin="pin32F"/>
+    <Connection part="Breadboard1" pin="pin32G"/>
+    <Connection part="Breadboard1" pin="pin32H"/>
+    <Connection part="Breadboard1" pin="pin32I"/>
+    <Connection part="Breadboard1" pin="pin32J"/>
+  </Node>
+  <Node id="061">
+    <Connection part="Breadboard1" pin="pin63F"/>
+    <Connection part="Breadboard1" pin="pin63G"/>
+    <Connection part="Breadboard1" pin="pin63H"/>
+    <Connection part="Breadboard1" pin="pin63I"/>
+    <Connection part="Breadboard1" pin="pin63J"/>
+  </Node>
+  <Node id="062">
+    <Connection part="Breadboard1" pin="pin40F"/>
+    <Connection part="Breadboard1" pin="pin40G"/>
+    <Connection part="Breadboard1" pin="pin40H"/>
+    <Connection part="Breadboard1" pin="pin40I"/>
+    <Connection part="Breadboard1" pin="pin40J"/>
+  </Node>
+  <Node id="063">
+    <Connection part="Breadboard1" pin="pin50F"/>
+    <Connection part="Breadboard1" pin="pin50G"/>
+    <Connection part="Breadboard1" pin="pin50H"/>
+    <Connection part="Breadboard1" pin="pin50I"/>
+    <Connection part="Breadboard1" pin="pin50J"/>
+  </Node>
+  <Node id="064">
+    <Connection part="Breadboard1" pin="pin37A"/>
+    <Connection part="Breadboard1" pin="pin37B"/>
+    <Connection part="Breadboard1" pin="pin37C"/>
+    <Connection part="Breadboard1" pin="pin37D"/>
+    <Connection part="Breadboard1" pin="pin37E"/>
+  </Node>
+  <Node id="065">
+    <Connection part="Breadboard1" pin="pin35A"/>
+    <Connection part="Breadboard1" pin="pin35B"/>
+    <Connection part="Breadboard1" pin="pin35C"/>
+    <Connection part="Breadboard1" pin="pin35D"/>
+    <Connection part="Breadboard1" pin="pin35E"/>
+  </Node>
+  <Node id="066">
+    <Connection part="Breadboard1" pin="pin60F"/>
+    <Connection part="Breadboard1" pin="pin60G"/>
+    <Connection part="Breadboard1" pin="pin60H"/>
+    <Connection part="Breadboard1" pin="pin60I"/>
+    <Connection part="Breadboard1" pin="pin60J"/>
+  </Node>
+  <Node id="067">
+    <Connection part="Breadboard1" pin="pin54A"/>
+    <Connection part="Breadboard1" pin="pin54B"/>
+    <Connection part="Breadboard1" pin="pin54C"/>
+    <Connection part="Breadboard1" pin="pin54D"/>
+    <Connection part="Breadboard1" pin="pin54E"/>
+  </Node>
+  <Node id="068">
+    <Connection part="Breadboard1" pin="pin33F"/>
+    <Connection part="Breadboard1" pin="pin33G"/>
+    <Connection part="Breadboard1" pin="pin33H"/>
+    <Connection part="Breadboard1" pin="pin33I"/>
+    <Connection part="Breadboard1" pin="pin33J"/>
+  </Node>
+  <Node id="069">
+    <Connection part="Breadboard1" pin="pin53A"/>
+    <Connection part="Breadboard1" pin="pin53B"/>
+    <Connection part="Breadboard1" pin="pin53C"/>
+    <Connection part="Breadboard1" pin="pin53D"/>
+    <Connection part="Breadboard1" pin="pin53E"/>
+  </Node>
+  <Node id="070">
+    <Connection part="Breadboard1" pin="pin43A"/>
+    <Connection part="Breadboard1" pin="pin43B"/>
+    <Connection part="Breadboard1" pin="pin43C"/>
+    <Connection part="Breadboard1" pin="pin43D"/>
+    <Connection part="Breadboard1" pin="pin43E"/>
+  </Node>
+  <Node id="071">
+    <Connection part="Breadboard1" pin="pin3A"/>
+    <Connection part="Breadboard1" pin="pin3B"/>
+    <Connection part="Breadboard1" pin="pin3C"/>
+    <Connection part="Breadboard1" pin="pin3D"/>
+    <Connection part="Breadboard1" pin="pin3E"/>
+  </Node>
+  <Node id="072">
+    <Connection part="Breadboard1" pin="pin46F"/>
+    <Connection part="Breadboard1" pin="pin46G"/>
+    <Connection part="Breadboard1" pin="pin46H"/>
+    <Connection part="Breadboard1" pin="pin46I"/>
+    <Connection part="Breadboard1" pin="pin46J"/>
+  </Node>
+  <Node id="073">
+    <Connection part="Breadboard1" pin="pin41F"/>
+    <Connection part="Breadboard1" pin="pin41G"/>
+    <Connection part="Breadboard1" pin="pin41H"/>
+    <Connection part="Breadboard1" pin="pin41I"/>
+    <Connection part="Breadboard1" pin="pin41J"/>
+  </Node>
+  <Node id="074">
+    <Connection part="Breadboard1" pin="pin42A"/>
+    <Connection part="Breadboard1" pin="pin42B"/>
+    <Connection part="Breadboard1" pin="pin42C"/>
+    <Connection part="Breadboard1" pin="pin42D"/>
+    <Connection part="Breadboard1" pin="pin42E"/>
+  </Node>
+  <Node id="075">
+    <Connection part="Breadboard1" pin="pin20F"/>
+    <Connection part="Breadboard1" pin="pin20G"/>
+    <Connection part="Breadboard1" pin="pin20H"/>
+    <Connection part="Breadboard1" pin="pin20I"/>
+    <Connection part="Breadboard1" pin="pin20J"/>
+  </Node>
+  <Node id="076">
+    <Connection part="Breadboard1" pin="pin7F"/>
+    <Connection part="Breadboard1" pin="pin7G"/>
+    <Connection part="Breadboard1" pin="pin7H"/>
+    <Connection part="Breadboard1" pin="pin7I"/>
+    <Connection part="Breadboard1" pin="pin7J"/>
+  </Node>
+  <Node id="077">
+    <Connection part="Breadboard1" pin="pin5A"/>
+    <Connection part="Breadboard1" pin="pin5B"/>
+    <Connection part="Breadboard1" pin="pin5C"/>
+    <Connection part="Breadboard1" pin="pin5D"/>
+    <Connection part="Breadboard1" pin="pin5E"/>
+  </Node>
+  <Node id="078">
+    <Connection part="Breadboard1" pin="pin40A"/>
+    <Connection part="Breadboard1" pin="pin40B"/>
+    <Connection part="Breadboard1" pin="pin40C"/>
+    <Connection part="Breadboard1" pin="pin40D"/>
+    <Connection part="Breadboard1" pin="pin40E"/>
+  </Node>
+  <Node id="079">
+    <Connection part="Breadboard1" pin="pin51A"/>
+    <Connection part="Breadboard1" pin="pin51B"/>
+    <Connection part="Breadboard1" pin="pin51C"/>
+    <Connection part="Breadboard1" pin="pin51D"/>
+    <Connection part="Breadboard1" pin="pin51E"/>
+  </Node>
+  <Node id="080">
+    <Connection part="Breadboard1" pin="pin48A"/>
+    <Connection part="Breadboard1" pin="pin48B"/>
+    <Connection part="Breadboard1" pin="pin48C"/>
+    <Connection part="Breadboard1" pin="pin48D"/>
+    <Connection part="Breadboard1" pin="pin48E"/>
+  </Node>
+  <Node id="081">
+    <Connection part="Breadboard1" pin="pin5F"/>
+    <Connection part="Breadboard1" pin="pin5G"/>
+    <Connection part="Breadboard1" pin="pin5H"/>
+    <Connection part="Breadboard1" pin="pin5I"/>
+    <Connection part="Breadboard1" pin="pin5J"/>
+  </Node>
+  <Node id="082">
+    <Connection part="Breadboard1" pin="pin43F"/>
+    <Connection part="Breadboard1" pin="pin43G"/>
+    <Connection part="Breadboard1" pin="pin43H"/>
+    <Connection part="Breadboard1" pin="pin43I"/>
+    <Connection part="Breadboard1" pin="pin43J"/>
+  </Node>
+  <Node id="083">
+    <Connection part="Breadboard1" pin="pin1F"/>
+    <Connection part="Breadboard1" pin="pin1G"/>
+    <Connection part="Breadboard1" pin="pin1H"/>
+    <Connection part="Breadboard1" pin="pin1I"/>
+    <Connection part="Breadboard1" pin="pin1J"/>
+  </Node>
+  <Node id="084">
+    <Connection part="Breadboard1" pin="pin6A"/>
+    <Connection part="Breadboard1" pin="pin6B"/>
+    <Connection part="Breadboard1" pin="pin6C"/>
+    <Connection part="Breadboard1" pin="pin6D"/>
+    <Connection part="Breadboard1" pin="pin6E"/>
+  </Node>
+  <Node id="085">
+    <Connection part="Breadboard1" pin="pin44A"/>
+    <Connection part="Breadboard1" pin="pin44B"/>
+    <Connection part="Breadboard1" pin="pin44C"/>
+    <Connection part="Breadboard1" pin="pin44D"/>
+    <Connection part="Breadboard1" pin="pin44E"/>
+  </Node>
+  <Node id="086">
+    <Connection part="Breadboard1" pin="pin4F"/>
+    <Connection part="Breadboard1" pin="pin4G"/>
+    <Connection part="Breadboard1" pin="pin4H"/>
+    <Connection part="Breadboard1" pin="pin4I"/>
+    <Connection part="Breadboard1" pin="pin4J"/>
+  </Node>
+  <Node id="087">
+    <Connection part="Breadboard1" pin="pin49A"/>
+    <Connection part="Breadboard1" pin="pin49B"/>
+    <Connection part="Breadboard1" pin="pin49C"/>
+    <Connection part="Breadboard1" pin="pin49D"/>
+    <Connection part="Breadboard1" pin="pin49E"/>
+  </Node>
+  <Node id="088">
+    <Connection part="Breadboard1" pin="pin38F"/>
+    <Connection part="Breadboard1" pin="pin38G"/>
+    <Connection part="Breadboard1" pin="pin38H"/>
+    <Connection part="Breadboard1" pin="pin38I"/>
+    <Connection part="Breadboard1" pin="pin38J"/>
+  </Node>
+  <Node id="089">
+    <Connection part="Breadboard1" pin="pin58F"/>
+    <Connection part="Breadboard1" pin="pin58G"/>
+    <Connection part="Breadboard1" pin="pin58H"/>
+    <Connection part="Breadboard1" pin="pin58I"/>
+    <Connection part="Breadboard1" pin="pin58J"/>
+  </Node>
+  <Node id="090">
+    <Connection part="Breadboard1" pin="pin34F"/>
+    <Connection part="Breadboard1" pin="pin34G"/>
+    <Connection part="Breadboard1" pin="pin34H"/>
+    <Connection part="Breadboard1" pin="pin34I"/>
+    <Connection part="Breadboard1" pin="pin34J"/>
+  </Node>
+  <Node id="091">
+    <Connection part="Breadboard1" pin="pin49F"/>
+    <Connection part="Breadboard1" pin="pin49G"/>
+    <Connection part="Breadboard1" pin="pin49H"/>
+    <Connection part="Breadboard1" pin="pin49I"/>
+    <Connection part="Breadboard1" pin="pin49J"/>
+  </Node>
+  <Node id="092">
+    <Connection part="Breadboard1" pin="pin62F"/>
+    <Connection part="Breadboard1" pin="pin62G"/>
+    <Connection part="Breadboard1" pin="pin62H"/>
+    <Connection part="Breadboard1" pin="pin62I"/>
+    <Connection part="Breadboard1" pin="pin62J"/>
+  </Node>
+  <Node id="093">
+    <Connection part="Breadboard1" pin="pin36F"/>
+    <Connection part="Breadboard1" pin="pin36G"/>
+    <Connection part="Breadboard1" pin="pin36H"/>
+    <Connection part="Breadboard1" pin="pin36I"/>
+    <Connection part="Breadboard1" pin="pin36J"/>
+  </Node>
+  <Node id="094">
+    <Connection part="Breadboard1" pin="pin39F"/>
+    <Connection part="Breadboard1" pin="pin39G"/>
+    <Connection part="Breadboard1" pin="pin39H"/>
+    <Connection part="Breadboard1" pin="pin39I"/>
+    <Connection part="Breadboard1" pin="pin39J"/>
+  </Node>
+  <Node id="095">
+    <Connection part="Breadboard1" pin="pin28A"/>
+    <Connection part="Breadboard1" pin="pin28B"/>
+    <Connection part="Breadboard1" pin="pin28C"/>
+    <Connection part="Breadboard1" pin="pin28D"/>
+    <Connection part="Breadboard1" pin="pin28E"/>
+  </Node>
+  <Node id="096">
+    <Connection part="Breadboard1" pin="pin6F"/>
+    <Connection part="Breadboard1" pin="pin6G"/>
+    <Connection part="Breadboard1" pin="pin6H"/>
+    <Connection part="Breadboard1" pin="pin6I"/>
+    <Connection part="Breadboard1" pin="pin6J"/>
+  </Node>
+  <Node id="097">
+    <Connection part="Breadboard1" pin="pin19F"/>
+    <Connection part="Breadboard1" pin="pin19G"/>
+    <Connection part="Breadboard1" pin="pin19H"/>
+    <Connection part="Breadboard1" pin="pin19I"/>
+    <Connection part="Breadboard1" pin="pin19J"/>
+  </Node>
+  <Node id="098">
+    <Connection part="Breadboard1" pin="pin30F"/>
+    <Connection part="Breadboard1" pin="pin30G"/>
+    <Connection part="Breadboard1" pin="pin30H"/>
+    <Connection part="Breadboard1" pin="pin30I"/>
+    <Connection part="Breadboard1" pin="pin30J"/>
+  </Node>
+  <Node id="099">
+    <Connection part="Breadboard1" pin="pin32A"/>
+    <Connection part="Breadboard1" pin="pin32B"/>
+    <Connection part="Breadboard1" pin="pin32C"/>
+    <Connection part="Breadboard1" pin="pin32D"/>
+    <Connection part="Breadboard1" pin="pin32E"/>
+  </Node>
+  <Node id="100">
+    <Connection part="Breadboard1" pin="pin39A"/>
+    <Connection part="Breadboard1" pin="pin39B"/>
+    <Connection part="Breadboard1" pin="pin39C"/>
+    <Connection part="Breadboard1" pin="pin39D"/>
+    <Connection part="Breadboard1" pin="pin39E"/>
+  </Node>
+  <Node id="101">
+    <Connection part="Breadboard1" pin="pin59A"/>
+    <Connection part="Breadboard1" pin="pin59B"/>
+    <Connection part="Breadboard1" pin="pin59C"/>
+    <Connection part="Breadboard1" pin="pin59D"/>
+    <Connection part="Breadboard1" pin="pin59E"/>
+  </Node>
+  <Node id="102">
+    <Connection part="Breadboard1" pin="pin58A"/>
+    <Connection part="Breadboard1" pin="pin58B"/>
+    <Connection part="Breadboard1" pin="pin58C"/>
+    <Connection part="Breadboard1" pin="pin58D"/>
+    <Connection part="Breadboard1" pin="pin58E"/>
+  </Node>
+  <Node id="103">
+    <Connection part="Breadboard1" pin="pin35F"/>
+    <Connection part="Breadboard1" pin="pin35G"/>
+    <Connection part="Breadboard1" pin="pin35H"/>
+    <Connection part="Breadboard1" pin="pin35I"/>
+    <Connection part="Breadboard1" pin="pin35J"/>
+  </Node>
+  <Node id="104">
+    <Connection part="Breadboard1" pin="pin48F"/>
+    <Connection part="Breadboard1" pin="pin48G"/>
+    <Connection part="Breadboard1" pin="pin48H"/>
+    <Connection part="Breadboard1" pin="pin48I"/>
+    <Connection part="Breadboard1" pin="pin48J"/>
+  </Node>
+  <Node id="105">
+    <Connection part="Breadboard1" pin="pin52F"/>
+    <Connection part="Breadboard1" pin="pin52G"/>
+    <Connection part="Breadboard1" pin="pin52H"/>
+    <Connection part="Breadboard1" pin="pin52I"/>
+    <Connection part="Breadboard1" pin="pin52J"/>
+  </Node>
+  <Node id="106">
+    <Connection part="Breadboard1" pin="pin61F"/>
+    <Connection part="Breadboard1" pin="pin61G"/>
+    <Connection part="Breadboard1" pin="pin61H"/>
+    <Connection part="Breadboard1" pin="pin61I"/>
+    <Connection part="Breadboard1" pin="pin61J"/>
+  </Node>
+  <Node id="107">
+    <Connection part="Breadboard1" pin="pin16F"/>
+    <Connection part="Breadboard1" pin="pin16G"/>
+    <Connection part="Breadboard1" pin="pin16H"/>
+    <Connection part="Breadboard1" pin="pin16I"/>
+    <Connection part="Breadboard1" pin="pin16J"/>
+  </Node>
+  <Node id="108">
+    <Connection part="Breadboard1" pin="pin8F"/>
+    <Connection part="Breadboard1" pin="pin8G"/>
+    <Connection part="Breadboard1" pin="pin8H"/>
+    <Connection part="Breadboard1" pin="pin8I"/>
+    <Connection part="Breadboard1" pin="pin8J"/>
+  </Node>
+  <Node id="109">
+    <Connection part="Breadboard1" pin="pin4A"/>
+    <Connection part="Breadboard1" pin="pin4B"/>
+    <Connection part="Breadboard1" pin="pin4C"/>
+    <Connection part="Breadboard1" pin="pin4D"/>
+    <Connection part="Breadboard1" pin="pin4E"/>
+  </Node>
+  <Node id="110">
+    <Connection part="Breadboard1" pin="pin37F"/>
+    <Connection part="Breadboard1" pin="pin37G"/>
+    <Connection part="Breadboard1" pin="pin37H"/>
+    <Connection part="Breadboard1" pin="pin37I"/>
+    <Connection part="Breadboard1" pin="pin37J"/>
+  </Node>
+  <Node id="111">
+    <Connection part="Breadboard1" pin="pin17A"/>
+    <Connection part="Breadboard1" pin="pin17B"/>
+    <Connection part="Breadboard1" pin="pin17C"/>
+    <Connection part="Breadboard1" pin="pin17D"/>
+    <Connection part="Breadboard1" pin="pin17E"/>
+  </Node>
+  <Node id="112">
+    <Connection part="Breadboard1" pin="pin53F"/>
+    <Connection part="Breadboard1" pin="pin53G"/>
+    <Connection part="Breadboard1" pin="pin53H"/>
+    <Connection part="Breadboard1" pin="pin53I"/>
+    <Connection part="Breadboard1" pin="pin53J"/>
+  </Node>
+  <Node id="113">
+    <Connection part="Breadboard1" pin="pin36A"/>
+    <Connection part="Breadboard1" pin="pin36B"/>
+    <Connection part="Breadboard1" pin="pin36C"/>
+    <Connection part="Breadboard1" pin="pin36D"/>
+    <Connection part="Breadboard1" pin="pin36E"/>
+  </Node>
+  <Node id="114">
+    <Connection part="Breadboard1" pin="pin1A"/>
+    <Connection part="Breadboard1" pin="pin1B"/>
+    <Connection part="Breadboard1" pin="pin1C"/>
+    <Connection part="Breadboard1" pin="pin1D"/>
+    <Connection part="Breadboard1" pin="pin1E"/>
+  </Node>
+  <Node id="115">
+    <Connection part="Breadboard1" pin="pin45A"/>
+    <Connection part="Breadboard1" pin="pin45B"/>
+    <Connection part="Breadboard1" pin="pin45C"/>
+    <Connection part="Breadboard1" pin="pin45D"/>
+    <Connection part="Breadboard1" pin="pin45E"/>
+  </Node>
+</NodeList>
