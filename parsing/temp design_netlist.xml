@@ -1,0 +1,622 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created with Fritzing (https://fritzing.org/) -->
+<netlist date="2026-03-29T00:59:04" sketch="temp design.fzz">
+ <net>
+  <connector id="A4" name="A4">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="E4" name="E4">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="D4" name="D4">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="B4" name="B4">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="C4" name="C4">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="connector10" name="Q4">
+   <part id="854146320" label="U1" title="7400 4 x 2 Input NAND Gate"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="A3" name="A3">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="C3" name="C3">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="B3" name="B3">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="D3" name="D3">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="E3" name="E3">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="connector11" name="A4">
+   <part id="854146320" label="U1" title="7400 4 x 2 Input NAND Gate"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="D2" name="D2">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="C2" name="C2">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="E2" name="E2">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="A2" name="A2">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="B2" name="B2">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="G3" name="G3">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="connector12" name="B4">
+   <part id="854146320" label="U1" title="7400 4 x 2 Input NAND Gate"/>
+  </connector>
+  <connector id="F3" name="F3">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="I3" name="I3">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="J3" name="J3">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="H3" name="H3">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="connector2" name="Q1">
+   <part id="854146320" label="U1" title="7400 4 x 2 Input NAND Gate"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="J2" name="J2">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="I2" name="I2">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="H2" name="H2">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="G2" name="G2">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="F2" name="F2">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="connector1" name="B1">
+   <part id="854146320" label="U1" title="7400 4 x 2 Input NAND Gate"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="J1" name="J1">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="I1" name="I1">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="F1" name="F1">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="H1" name="H1">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="G1" name="G1">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="connector0" name="A1">
+   <part id="854146320" label="U1" title="7400 4 x 2 Input NAND Gate"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="J7" name="J7">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="H7" name="H7">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="I7" name="I7">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="F7" name="F7">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="G7" name="G7">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="connector6" name="GND">
+   <part id="854146320" label="U1" title="7400 4 x 2 Input NAND Gate"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="A1" name="A1">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="C1" name="C1">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="D1" name="D1">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="B1" name="B1">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="E1" name="E1">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="connector13" name="VDD">
+   <part id="854146320" label="U1" title="7400 4 x 2 Input NAND Gate"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector5" name="B2">
+   <part id="854146320" label="U1" title="7400 4 x 2 Input NAND Gate"/>
+  </connector>
+  <connector id="F6" name="F6">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="I6" name="I6">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="G6" name="G6">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="H6" name="H6">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="J6" name="J6">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector9" name="Q3">
+   <part id="854146320" label="U1" title="7400 4 x 2 Input NAND Gate"/>
+  </connector>
+  <connector id="E5" name="E5">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="B5" name="B5">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="D5" name="D5">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="C5" name="C5">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="A5" name="A5">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector8" name="B3">
+   <part id="854146320" label="U1" title="7400 4 x 2 Input NAND Gate"/>
+  </connector>
+  <connector id="E6" name="E6">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="B6" name="B6">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="C6" name="C6">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="D6" name="D6">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="A6" name="A6">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector7" name="A3">
+   <part id="854146320" label="U1" title="7400 4 x 2 Input NAND Gate"/>
+  </connector>
+  <connector id="E7" name="E7">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="D7" name="D7">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="B7" name="B7">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="C7" name="C7">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="A7" name="A7">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector4" name="A2">
+   <part id="854146320" label="U1" title="7400 4 x 2 Input NAND Gate"/>
+  </connector>
+  <connector id="F5" name="F5">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="J5" name="J5">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="I5" name="I5">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="H5" name="H5">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="G5" name="G5">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector3" name="Q2">
+   <part id="854146320" label="U1" title="7400 4 x 2 Input NAND Gate"/>
+  </connector>
+  <connector id="F4" name="F4">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="I4" name="I4">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="H4" name="H4">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="G4" name="G4">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="J4" name="J4">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="B14" name="B14">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="D14" name="D14">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="A14" name="A14">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="E14" name="E14">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="C14" name="C14">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="I17" name="I17">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="G17" name="G17">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="H17" name="H17">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="J17" name="J17">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="F17" name="F17">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="B9" name="B9">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="C9" name="C9">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="A9" name="A9">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="E9" name="E9">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="D9" name="D9">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="A17" name="A17">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="D17" name="D17">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="C17" name="C17">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="E17" name="E17">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="B17" name="B17">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="A10" name="A10">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="D10" name="D10">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="E10" name="E10">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="C10" name="C10">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="B10" name="B10">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="H15" name="H15">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="I15" name="I15">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="G15" name="G15">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="F15" name="F15">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="J15" name="J15">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="G13" name="G13">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="I13" name="I13">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="H13" name="H13">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="F13" name="F13">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="J13" name="J13">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="C16" name="C16">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="D16" name="D16">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="E16" name="E16">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="A16" name="A16">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="B16" name="B16">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="B15" name="B15">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="E15" name="E15">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="A15" name="A15">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="C15" name="C15">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="D15" name="D15">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="D13" name="D13">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="C13" name="C13">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="A13" name="A13">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="B13" name="B13">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="E13" name="E13">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="J12" name="J12">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="G12" name="G12">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="I12" name="I12">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="F12" name="F12">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="H12" name="H12">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="D12" name="D12">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="E12" name="E12">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="B12" name="B12">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="A12" name="A12">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="C12" name="C12">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="J9" name="J9">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="H9" name="H9">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="F9" name="F9">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="G9" name="G9">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="I9" name="I9">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="A8" name="A8">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="E8" name="E8">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="D8" name="D8">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="B8" name="B8">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="C8" name="C8">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="G14" name="G14">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="H14" name="H14">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="F14" name="F14">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="I14" name="I14">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="J14" name="J14">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="G10" name="G10">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="J10" name="J10">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="I10" name="I10">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="F10" name="F10">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="H10" name="H10">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="D11" name="D11">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="E11" name="E11">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="B11" name="B11">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="C11" name="C11">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="A11" name="A11">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="F11" name="F11">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="G11" name="G11">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="H11" name="H11">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="I11" name="I11">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="J11" name="J11">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="J8" name="J8">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="H8" name="H8">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="I8" name="I8">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="F8" name="F8">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="G8" name="G8">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="J16" name="J16">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="F16" name="F16">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="H16" name="H16">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="I16" name="I16">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+  <connector id="G16" name="G16">
+   <part id="854134720" label="Breadboard3" title="Mini Breadboard"/>
+  </connector>
+ </net>
+</netlist>
