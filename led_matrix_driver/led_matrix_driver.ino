@@ -31,7 +31,39 @@
 const int BLUE_DIRECT_PINS[4] = {6, 7, 8, 9};
 
 // ---- Frame buffer ----
-uint8_t fb_r[8], fb_g[8], fb_b[8];
+// uint8_t fb_r[8], fb_g[8], fb_b[8];
+uint8_t fb_r[8] = {
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+};
+
+uint8_t fb_g[8] = {
+  0b00000000,
+  0b00000000,
+  0b0,
+  0b0,
+  0b0,
+  0b0,
+  0b00000000,
+  0b00000000
+};
+
+uint8_t fb_b[8] = {
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+};
 
 // ---- Clock pulse ----
 inline void clockPulse() {
@@ -83,7 +115,8 @@ const Emoticon emoticons[] = {
     },
     YELLOW, 2000
   }
-}
+};
+
 void driveRow(int row) {
   uint8_t red        = fb_r[row];
   uint8_t green      = fb_g[row];
@@ -96,21 +129,37 @@ void driveRow(int row) {
   // Deactivate direct blue pins before shifting (avoid ghosting)
   for (int c = 0; c < 4; c++) digitalWrite(BLUE_DIRECT_PINS[c], HIGH);
 
-  // Pulses 1-4: red bits 7-4 into 16-bit chain, zeros into 12-bit chain
-  for (int b = 3; b >= 0; b--)
-    shiftBit(false, (red >> (b + 4)) & 1);
+  // // Pulses 1-4: red bits 7-4 into 16-bit chain, zeros into 12-bit chain
+  // for (int b = 3; b >= 0; b--)
+  //   shiftBit(false, (red >> (b + 4)) & 1);
 
-  // Pulses 5-8: red bits 3-0 into 16-bit chain, row one-hot upper nibble into 12-bit chain
-  for (int b = 3; b >= 0; b--)
-    shiftBit((row_onehot >> (b + 4)) & 1, (red >> b) & 1);
+  // // Pulses 5-8: red bits 3-0 into 16-bit chain, row one-hot upper nibble into 12-bit chain
+  // for (int b = 3; b >= 0; b--)
+  //   shiftBit((row_onehot >> (b + 4)) & 1, (red >> b) & 1);
 
-  // Pulses 9-12: green bits 7-4 into 16-bit chain, row one-hot lower nibble into 12-bit chain
-  for (int b = 3; b >= 0; b--)
-    shiftBit((row_onehot >> b) & 1, (green >> (b + 4)) & 1);
+  // // Pulses 9-12: green bits 7-4 into 16-bit chain, row one-hot lower nibble into 12-bit chain
+  // for (int b = 3; b >= 0; b--)
+  //   shiftBit((row_onehot >> b) & 1, (green >> (b + 4)) & 1);
 
-  // Pulses 13-16: green bits 3-0 into 16-bit chain, ~blue cols 1-4 into 12-bit chain
+  // // Pulses 13-16: green bits 3-0 into 16-bit chain, ~blue cols 1-4 into 12-bit chain
+  // for (int b = 3; b >= 0; b--)
+  //   shiftBit(!((blue_hi >> b) & 1), (green >> b) & 1);
+
+    // Pulses 1-4
   for (int b = 3; b >= 0; b--)
-    shiftBit(!((blue_hi >> b) & 1), (green >> b) & 1);
+      shiftBit(false, !((red >> (b + 4)) & 1));
+
+  // Pulses 5-8
+  for (int b = 3; b >= 0; b--)
+      shiftBit((row_onehot >> (b + 4)) & 1, !((red >> b) & 1));
+
+  // Pulses 9-12
+  for (int b = 3; b >= 0; b--)
+      shiftBit((row_onehot >> b) & 1, !((green >> (b + 4)) & 1));
+
+  // Pulses 13-16
+  for (int b = 3; b >= 0; b--)
+      shiftBit(!((blue_hi >> b) & 1), !((green >> b) & 1));
 
   // Set direct blue cols 5-8 (active LOW)
   for (int c = 0; c < 4; c++)
@@ -134,7 +183,7 @@ void setup() {
 
   // Reset all registers
   digitalWrite(RST_PIN, LOW);
-  delayMicroseconds(10);
+  delay(100);
   digitalWrite(RST_PIN, HIGH);
 }
 
